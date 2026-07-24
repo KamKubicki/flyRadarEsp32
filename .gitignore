@@ -1,0 +1,37 @@
+# FlyRadar .gitignore
+
+# ── Secrets — NEVER commit these ────────────────────────────────────────────
+FlyRadar/config_secrets.h
+
+# Private SD card data
+sd_card/family.csv.PRIVATE
+sd_card/namedays_custom.csv
+
+# ── Hardware documentation (large binary files, not part of source) ──────────
+JC8048W550/
+
+# ── opencode internal ────────────────────────────────────────────────────────
+.opencode/
+
+# ── Build artefacts ──────────────────────────────────────────────────────────
+build/
+*.bin
+*.elf
+*.map
+
+# ── Arduino / IDE ────────────────────────────────────────────────────────────
+.DS_Store
+**/.DS_Store
+.idea/
+*.iml
+.vscode/settings.json
+__pycache__/
+*.pyc
+
+# ── Virtual environments ─────────────────────────────────────────────────────
+.venv/
+venv/
+
+# ── Sensitive data ───────────────────────────────────────────────────────────
+.env
+*.PRIVATE

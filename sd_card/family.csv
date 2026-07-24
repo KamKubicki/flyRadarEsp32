@@ -1,0 +1,12 @@
+# family.csv — personal family events
+# Format: MM,DD,Description
+# This is an example file — replace with your own dates
+01,01,New Year
+02,14,Valentines Day
+03,08,Mothers Day (example)
+05,26,Mothers Day
+06,01,Childrens Day
+06,06,Anniversary (example)
+12,24,Christmas Eve
+12,25,Christmas
+12,31,New Years Eve
